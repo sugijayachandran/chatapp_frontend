@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatApp with Profiles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="sidebar">
+            <h2>Contacts</h2>
+            <ul id="contacts-list">
+                <!-- Contacts will be dynamically added here -->
+            </ul>
+        </div>
+        <div class="chat-container">
+            <header>
+                <h1 id="chat-header">Select a contact</h1>
+            </header>
+            <div class="chat-box" id="chat-box"></div>
+            <div class="input-container">
+                <input type="text" id="message-input" placeholder="Type a message...">
+                <button id="send-button">Send</button>
+            </div>
+        </div>
+        <div class="profile-view" id="profile-view">
+            <!-- Profile information will be dynamically added here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
